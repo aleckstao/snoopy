@@ -1,0 +1,8 @@
+.env
+session_file.txt
+FOLLOWERS DATA/
+Results/
+Processed Files/
+__pycache__/
+*.pyc
+.DS_Store
