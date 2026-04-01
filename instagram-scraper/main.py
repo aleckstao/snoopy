@@ -26,7 +26,7 @@ def show_banner():
     f = pyfiglet.Figlet(font='slant',width=300)
     banner = f.renderText('IG Tools')
     print(f'{random.choice(colors)}{banner}{rs}')
-    print(f'{r}  Instagram Scrapers Suite |Version: 1.0 | Author: Kev {rs}\n')
+    print(f'{r}  Snoopy |Version: 1.1 | a komune toy {rs}\n')
 
 def main_menu():
     """Display main menu and handle user input"""

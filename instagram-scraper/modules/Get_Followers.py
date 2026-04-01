@@ -36,7 +36,7 @@ def show_banner():
     f = pyfiglet.Figlet(font='slant')
     banner = f.renderText('Followers')
     print(f'{Colors.YELLOW}{banner}{Colors.RESET}')
-    print(f'{Colors.RED}Followers Scraper | Version: 1.0 | Author: Kev {Colors.RESET}\n')
+    print(f'{Colors.RED}Snoopy | Version: 1.1 | a komune toy  {Colors.RESET}\n')
 
 def load_accounts(filename='session_file.txt'):
     """Load accounts from file with enhanced error handling"""

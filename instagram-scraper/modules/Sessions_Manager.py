@@ -34,7 +34,7 @@ def show_banner():
     f = pyfiglet.Figlet(font='slant')
     banner = f.renderText('Manager')
     print(f'{random.choice(colors)}{banner}{Colors.RESET}')
-    print(f'{Colors.RED}Session  Manager | Version: 1.0 | Author: Kev {Colors.RESET}\n')
+    print(f'{Colors.RED}Session  Manager | Version: 1.1 | a komune toy {Colors.RESET}\n')
 
 def load_sessions(filename='session_file.txt'):
     """Load sessions from file"""
